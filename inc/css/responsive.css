@@ -1,0 +1,6 @@
+/* medium size */
+@media screen and (max-width: 768px) {
+    .sec_desc{
+        text-align: center;
+    }
+}

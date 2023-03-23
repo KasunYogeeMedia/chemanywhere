@@ -1,0 +1,191 @@
+/******************************* common css */
+:root {
+  --orange: #ea7c2d;
+  --red: #da0632;
+  --blue: #14c3bf;
+  --gray: #444444;
+  --purple: #696587;
+}
+
+/* common styles */
+a {
+  text-decoration: none;
+}
+p,
+a,
+span,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.li {
+  font-family: "Nunito", sans-serif;
+}
+.text-orange {
+  color: var(--orange);
+}
+.text-red {
+  color: var(--red);
+}
+.text-blue {
+  color: var(--blue);
+}
+.text-gray {
+  color: var(--gray);
+}
+.text-purple {
+  color: var(--purple);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.body-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+.header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/* navbar styles */
+.navbar-light {
+  background-color: #f8f9fa00 !important;
+}
+.nav-item .nav-link,
+.nav-item .btn {
+  text-transform: uppercase;
+}
+.nav-item .nav-link {
+  color: var(--gray) !important;
+  font-size: 18px;
+  font-weight: bold;
+  /* font-family: "Raleway", sans-serif; */
+}
+.navbar-nav .d-flex .btn {
+  padding: 8px 20px;
+  border: #0575cf solid 3px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.navbar-nav .d-flex .btn-primary {
+  background-color: #0575cf !important;
+}
+
+/* banner styles */
+/* .banner .container{
+  max-width: 1500px !important;
+} */
+.sub-ttle {
+  font-weight: 800;
+  font-size: 18px;
+}
+.ttle {
+  font-size: 59px;
+  line-height: 1;
+  font-weight: 600;
+  color: #4d716f;
+}
+.crs-btn .btn {
+  color: #fff;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 15px 70px;
+  font-weight: bold;
+}
+
+/* under-banner section */
+.sec-card {
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.19);
+}
+.under-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec-content .image .img {
+  width: 100%;
+  height: auto;
+}
+.sec-content .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.sec-content .prg {
+  font-size: 16px;
+}
+.sec-content .link a {
+  font-size: 16px;
+  font-weight: bold;
+}
+.sec-content .link a:hover {
+  color: var(--orange);
+}
+
+/* sec_3 */
+.sec p {
+  color: var(--purple);
+}
+.sec_btn {
+  color: #fff;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 15px 70px;
+  font-weight: bold;
+  background-color: var(--orange);
+}
+.sec_sub-ttle {
+  color: var(--blue);
+  font-weight: 800;
+  line-height: 30px;
+}
+.sec_ttle {
+  color: var(--gray);
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 800;
+}
+/* sec_4 */
+.sec_4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec_4_accordion .accordion-item {
+  margin-top: 20px;
+  border: none;
+  box-shadow: 8px 8px 25px 0 rgba(42,67,113,.15);
+-webkit-box-shadow: 8px 8px 25px 0 rgba(42,67,113,.15);
+border-radius: 40px;
+}
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background-color: #0000;
+  color: var(--gray);
+}
+.accordion-button {
+  font-size: 18px;
+  width: auto;
+  margin-left: auto;
+  font-weight: 600;
+}
+.accordion-button::after {
+  margin-left: 10px;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-body {
+  font-size: 16px;
+  color: var(--purple);
+}
+
+/* sec_5 */
+.sec_5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
