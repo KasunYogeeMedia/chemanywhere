@@ -20,4 +20,9 @@
   .ttle {
     min-height: 90px;
   }
+  .sec_6 .sec_5-content {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
