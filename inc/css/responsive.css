@@ -6,6 +6,9 @@
   .ttle{
     font-size: 49px;
   }
+  .ttle {
+    min-height: 110px;
+  }
 }
 @media screen and (max-width: 567px) {
   .crs-btn .btn {
@@ -13,5 +16,8 @@
   }
   .ttle{
     font-size: 39px;
+  }
+  .ttle {
+    min-height: 90px;
   }
 }
