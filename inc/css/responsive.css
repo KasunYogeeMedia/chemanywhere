@@ -1,6 +1,17 @@
 /* medium size */
 @media screen and (max-width: 768px) {
-    .sec_desc{
-        text-align: center;
-    }
+  .sec_desc {
+    text-align: center;
+  }
+  .ttle{
+    font-size: 49px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .crs-btn .btn {
+    padding: 15px 50px;
+  }
+  .ttle{
+    font-size: 39px;
+  }
 }

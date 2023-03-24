@@ -13,6 +13,9 @@
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Raleway:wght@400;500;600&display=swap"
         rel="stylesheet">
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -37,122 +40,127 @@
 <body>
 
     <div class="body-wrapper">
-        <!-- navbar -->
-        <div class="header sec_1" style="background-image: url(inc/img/top_back.png);">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img class="img-fluid" src="inc/img/logo.png" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">live</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Bite-Sized</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Quiz</a>
-                            </li>
-                            <div class="d-flex ms-0 ms-lg-5">
-                                <a href="" class="btn btn-outline-primary bg-light">Sign In</a>
-                                <a href="" class="btn btn-primary ms-0 ms-lg-3">Contact Us</a>
-                            </div>
-                        </ul>
+        <div class="back_1st" style="background-image: url(inc/img/1st_back.png);">
+            <!-- navbar -->
+            <div class="header sec_1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-sm-5">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img class="img-fluid" src="inc/img/logo.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">live</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Bite-Sized</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Quiz</a>
+                                </li>
+                                <div class="d-flex ms-0 ms-lg-5">
+                                    <a href="" class="btn btn-outline-primary bg-light">Sign In</a>
+                                    <a href="" class="btn btn-primary ms-2 ms-lg-3">Contact Us</a>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
-            <div class="banner">
-                <div class="container">
-                    <div class="bnn-content mt-4">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="lft-cont">
-                                    <div class="sub-ttle mt-5">
-                                        <span class="text-blue">ENJOY LEARNING</span> <span class="text-red">
-                                            CHEMISTRY</span>
-                                    </div>
-                                    <div class="ttle mt-4">
-                                        <span>From Anywhere <br>
-                                            At any time</span>
-                                    </div>
-                                    <div class="crs-btn mt-4">
-                                        <a href="" class="btn bg-orange">View Courses</a> <span class="ms-5"><img
-                                                src="inc/img/btn.png" alt=""></span>
+                </nav>
+                <div class="banner">
+                    <div class="container">
+                        <div class="bnn-content mt-4">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="lft-cont">
+                                        <div class="sub-ttle mt-2 mt-sm-5">
+                                            <span class="text-blue">ENJOY LEARNING</span> <span class="text-red">
+                                                CHEMISTRY</span>
+                                        </div>
+                                        <div class="ttle mt-4">
+                                            <span>From Anywhere <br>
+                                                At any time</span>
+                                        </div>
+                                        <div class="crs-btn mt-4">
+                                            <a href="" class="btn bg-orange">View Courses</a> <span class="ms-2 ms-sm-5"><img
+                                                    src="inc/img/btn.png" alt=""></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="rgt-cont text-end">
-                                    <img src="inc/img/professor.png" alt="" class="img-fluid w-100 mt-2">
+                                <div class="col-md-7">
+                                    <div class="rgt-cont text-end">
+                                        <img src="inc/img/professor.png" alt="" class="img-fluid w-100 mt-2">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- under-banner -->
-        <div class="under-banner sec_2" style="background-image: url(inc/img/second_back.png);">
-            <div class="container pt-5">
-                <div class="card-sec pt-2">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="sec-card p-5 m-2">
-                                <div class="sec-content">
-                                    <div class="image text-center">
-                                        <img src="inc/img/sec_1_img.png" class="img-fluid" alt="">
-                                    </div>
-                                    <p class="title text-gray mt-2">In-House Chemistry Lab</p>
-                                    <p class="mt-3 text-gray prg">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <div class="link text-center mt-4">
-                                        <a href="" class="text-orange">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="sec-card p-5 m-2">
-                                <div class="sec-content">
-                                    <div class="image text-center">
-                                        <img src="inc/img/sec_2_img.png" class="img-fluid" alt="">
-                                    </div>
-                                    <p class="title text-gray mt-2">Adaptive Learning</p>
-                                    <p class="mt-3 text-gray prg">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <div class="link text-center mt-4">
-                                        <a href="" class="text-orange">Read More</a>
+            <!-- under-banner -->
+            <div class="under-banner sec_2">
+                <div class="container pt-5">
+                    <div class="card-sec pt-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="sec-card p-5 m-2">
+                                    <div class="sec-content">
+                                        <div class="image text-center">
+                                            <img src="inc/img/sec_1_img.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="title text-gray mt-2">In-House Chemistry Lab</p>
+                                        <p class="mt-3 text-gray prg">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit, sed do
+                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <div class="link text-center mt-4">
+                                            <a href="" class="text-orange">Read More</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="sec-card p-5 m-2">
-                                <div class="sec-content">
-                                    <div class="image text-center">
-                                        <img src="inc/img/sec_3_img.png" class="img-fluid" alt="">
+                            <div class="col-md-4">
+                                <div class="sec-card p-5 m-2">
+                                    <div class="sec-content">
+                                        <div class="image text-center">
+                                            <img src="inc/img/sec_2_img.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="title text-gray mt-2">Adaptive Learning</p>
+                                        <p class="mt-3 text-gray prg">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit, sed do
+                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <div class="link text-center mt-4">
+                                            <a href="" class="text-orange">Read More</a>
+                                        </div>
                                     </div>
-                                    <p class="title text-gray mt-2">PhD & Ex-MOE Tutors</p>
-                                    <p class="mt-3 text-gray prg">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <div class="link text-center mt-4">
-                                        <a href="" class="text-orange">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="sec-card p-5 m-2">
+                                    <div class="sec-content">
+                                        <div class="image text-center">
+                                            <img src="inc/img/sec_3_img.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="title text-gray mt-2">PhD & Ex-MOE Tutors</p>
+                                        <p class="mt-3 text-gray prg">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit, sed do
+                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <div class="link text-center mt-4">
+                                            <a href="" class="text-orange">Read More</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -191,12 +199,13 @@
                 </div>
             </div>
         </div>
-        <div class="sec sec_4 py-5" style="background-image: url(inc/img/back_3.png);">
+        <!-- sec_4 -->
+        <div class="sec sec_4 py-3 py-sm-4 pb-sm-5" style="background-image: url(inc/img/back_3.png);">
             <div class="container">
                 <div class="sec_4-content pt-0 pt-md-4">
                     <div class="row">
-                        <div class="col-md-5">
-                            <div class="left_sec mt-5">
+                        <div class="col-md-7 col-lg-7 col-xl-5">
+                            <div class="left_sec mt-3 mt-sm-5">
                                 <div class="sec_sub-ttle"><span>ChemAnywhere</span></div>
                                 <div class="sec_ttle mt-3"><span>What you can get by joining</span></div>
                                 <div class="accordion mt-4 sec_4_accordion" id="sec_4_accordion">
@@ -260,7 +269,8 @@
                 </div>
             </div>
         </div>
-        <div class="sec sec_5 py-5" style="background-image: url(inc/img/back_4.png);">
+        <!-- sec_5 -->
+        <div class="sec sec_5 py-4" style="background-image: url(inc/img/back_4.png);">
             <div class="container">
                 <div class="sec_5_title pt-5">
                     <div class="text-center">
@@ -268,19 +278,245 @@
                         <div class="sec_ttle mt-3"><span>Some review from our students</span></div>
                     </div>
                 </div>
-                <div class="sec_5-content pt-0 pt-md-4">
-                    <div class="owl-carousel owl-theme">
+                <div class="sec_5-content py-0 py-md-4">
+                    <div class="owl-carousel owl-theme mt-4">
                         <div class="item">
-                            <h4><img src="images/new-zealand.jpg" alt="image" /></h4>
+                            <div class="item_cont p-4 m-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis enim sed quaerat,
+                                    voluptate sit aspernatur, dolorum quia obcaecati reiciendis minima necessitatibus
+                                    consectetur, distinctio nihil optio cumque sapiente maiores. Sed, commodi?</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="inc/img/user.png" class="u_img" alt="">
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="fw-bold mb-0">Yimin</p>
+                                                <p>NYJC</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col text-end">
+                                        <div class="star-sec mt-3">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="item">
-                            <h4><img src="images/city.jpg" alt="image" /></h4>
+                            <div class="item_cont p-4 m-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis enim sed quaerat,
+                                    voluptate sit aspernatur, dolorum quia obcaecati reiciendis minima necessitatibus
+                                    consectetur, distinctio nihil optio cumque sapiente maiores. Sed, commodi?</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="inc/img/user.png" class="u_img" alt="">
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="fw-bold mb-0">Yimin</p>
+                                                <p>NYJC</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col text-end">
+                                        <div class="star-sec mt-3">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4><img src="images/sky.jpg" alt="image" /></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sec_6 -->
+        <div class="sec sec_6 py-4">
+            <div class="container">
+                <div class="sec_5-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sec_sub-ttle"><span>FOUNDER'S MESSAGE</span></div>
+                            <div class="sec_ttle mt-3"><span>Chemistry learning simplified</span></div>
+                            <div class="cont mt-4">
+                                <p>Hi there, I’m Dr Aw Junxin. Chemanywhere Academy is created as a desire to reach out
+                                    more students who are facing problems in chemistry and help them to overcome the
+                                    challenge that they face in school.</p>
+                                <p>Through many years of teaching, I recognise that there is an increasingly number of
+                                    online resources and books that are overwhelmingly tedious and ineffective as the
+                                    students are often overwhelmed by the loads of information and unsure what are the
+                                    key important concepts and keywords to apply in exam. In Chemanywhere Academy, we
+                                    aim to simply this by providing a central platform where students can learn key
+                                    concepts through bite size video. Furthermore, explaining complicated concepts to
+                                    simpler forms is at the heart of Chemanywhere Academy. Hence, a typical long winded
+                                    lessons (8 hrs) that was taught in school, it will be condensed to less than a 1/4
+                                    of the original time required while not compromising any essential contents for
+                                    exam.</p>
+                            </div>
+                            <div class="count_sec mt-5">
+                                <div class="row">
+                                    <div class="col-sm-4 text-center">
+                                        <p class="count mb-0">500+</p>
+                                        <p class="count_name">Recorded Sessions</p>
+                                    </div>
+                                    <div class="col-sm-4 text-center">
+                                        <p class="count mb-0">100+</p>
+                                        <p class="count_name">Highquality Content</p>
+                                    </div>
+                                    <div class="col-sm-4 text-center">
+                                        <p class="count mb-0">100+</p>
+                                        <p class="count_name">Learn at your own place</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4><img src="images/pexels-photo-257360.jpeg" alt="image" /></h4>
+                        <div class="col-md-6">
+                            <div class="right_cont text-end mt-5">
+                                <img src="inc/img/lecture.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer pt-5" style="background-image: url(inc/img/footer.png);">
+            <div class="container">
+                <div class="foot_cont py-3 py-sm-5">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="foot_sec foot_sec1">
+                                <img src="inc/img/logo.png" alt="" class="img-fluid mb-3 mb-sm-5">
+                                <div class="foot_cont mt-2">
+                                    <p class="text-uppercase">
+                                        Enjoy Learning Chemistry From Anywhere at Any Time
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="foot_sec foot_sec2">
+                                <div class="foot_tit mb-3 mb-md-5 mt-3 mt-md-5">
+                                    <p>Contacts</p>
+                                </div>
+                                <div class="foot_cont">
+                                    <ul>
+                                        <li>
+                                            <a href="tel:">
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <span class="icon"><i class="fa fa-phone"
+                                                                aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-11">
+                                                        <span class="text ms-1"> 6 591 705 114</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto::">
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <span class="icon"><i class="fa fa-envelope"
+                                                                aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-11">
+                                                        <span class="text ms-1">info@uptas.sg</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <span class="icon"><i class="fa fa-map-marker"
+                                                                aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-11">
+                                                        <span class="text ms-1">209 New Upper Changai Road
+                                                            #03-647</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-2">
+                            <div class="foot_sec foot_sec3">
+                                <div class="foot_tit mb-3 mb-md-5 mt-3 mt-md-5">
+                                    <p>Links</p>
+                                </div>
+                                <div class="foot_cont">
+                                    <a href="">
+                                        <span>Home</span>
+                                    </a>
+                                    <a href="">
+                                        <span>Courses</span>
+                                    </a>
+                                    <a href="">
+                                        <span>Live</span>
+                                    </a>
+                                    <a href="">
+                                        <span>Quiz</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-2">
+                            <div class="foot_sec foot_sec4">
+                                <div class="foot_tit mb-3 mb-md-5 mt-3 mt-md-5">
+                                    <p>Why Choose Us</p>
+                                </div>
+                                <div class="foot_cont">
+                                    <p>No student left behind Media Featured Tutor Proven strategies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-bot border-top py-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8">
+                            <p class="mb-0">Copyright © 2022 Uptas. Designed by <a target="_blank"
+                                    href="http://mozita.digital/">Mozita Digital</a> - All Rights Reserved</p>
+                        </div>
+                        <div class="col-md-12 col-lg-4">
+                            <div class="soc_icons mt-3 mt-lg-0">
+                                <a href="">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-skype" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
