@@ -1,4 +1,7 @@
 /******************************* common css */
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --orange: #ea7c2d;
   --red: #da0632;
@@ -238,12 +241,7 @@ span,
   list-style: none;
   line-height: 1.5;
 }
-.foot_tit {
-  color: var(--gray);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 27px;
-}
+
 .foot_cont a,
 .foot_cont span,
 .foot_cont p{
@@ -269,4 +267,10 @@ line-height: 2;
 .soc_icons a{
   margin-right: 20px;
   font-size: 20px;
+}
+.foot_tit p{
+  color: var(--gray) ;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 27px;
 }
